@@ -1,0 +1,6 @@
+import visa
+TILE_SIZE = 20
+WIDTH  =    visa.FIELD_WIDTH*TILE_SIZE
+HEIGHT =    visa.FIELD_HEIDHT*TILE_SIZE
+FPS    =    40
+RES    = (WIDTH,HEIGHT)
